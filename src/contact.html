@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/build/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sunnyside -- Contacts Us</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="relative">
+        <div class="w-full relative">
+          <img
+            src="/build/images/beach-bar.jpg"
+            class="w-full h-[40rem] object-cover"
+            alt="smoothies-hero"
+          />
+          <div
+            class="absolute w-full h-full top-0 opacity-40 bg-gray-900"
+          ></div>
+        </div>
+
+        <div
+          class="w-[90%] flex justify-between items-center absolute top-4 left-4 lg:left-12"
+        >
+          <div>
+            <h2 class="text-2xl font-bold text-white">
+              <a href="contact.html">contact</a>
+            </h2>
+          </div>
+
+          <div class="hidden lg:block">
+            <ul class="flex justify-between items-center gap-8">
+              <li class="text-white">
+                <a
+                  href="index.html"
+                  class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all"
+                  >Home</a
+                >
+              </li>
+              <li class="text-white">
+                <a
+                  href="about.html"
+                  class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all"
+                  >About</a
+                >
+              </li>
+              <li class="text-white">
+                <a
+                  href="products.html"
+                  class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all"
+                  >Products</a
+                >
+              </li>
+              <li class="text-white">
+                <a
+                  class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="lg:hidden">
+            <div class="off-screen-menu">
+              <ul class="flex flex-col gap-4">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <nav>
+              <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container px-6 mx-auto lg:px-20">
+      <section>
+        <div class="mt-20">
+          <h1 class="fraunces text-4xl font-bold">Contact Us</h1>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex flex-col justify-between mt-10 mb-20 lg:flex-row">
+          <div class="lg:w-[45%]">
+            <p class="mt-4">
+              If you have any questions, feedback, or need assistance, our
+              "Contact Us" page is here to help! You can reach out to us through
+              our simple contact form, email us directly, or give us a call for
+              immediate support. We’ve also included our physical address for
+              those who prefer to connect in person or send mail. For more
+              interactive engagement, feel free to follow us on social media.
+              We're here to ensure you have the best experience possible, so
+              don’t hesitate to get in touch!
+            </p>
+
+            <h3 class="mt-10 text-xl fraunces font-semibold">
+              Feel free to reach out to us
+            </h3>
+            <p>
+              Sunnyside 1234 Radiant Boulevard <br />
+              Las Vegas, NV 89101 <br />
+              USA
+            </p>
+
+            <span class="mt-10 flex gap-4">
+              <h3 class="text-xl fraunces font-semibold">Email:</h3>
+              <p class="underline">contact@sunnyside.biz</p>
+            </span>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-lg shadow-lg mt-10 lg:mt-0 lg:w-[50%]"
+          >
+            <h1 class="text-2xl font-semibold text-gray-800 mb-6">
+              Send us a message today
+            </h1>
+
+            <form id="contactForm" action="#" method="POST" class="space-y-6">
+              <div>
+                <label for="name" class="block text-gray-700 font-medium mb-2"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+
+              <div>
+                <label for="email" class="block text-gray-700 font-medium mb-2"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="subject"
+                  class="block text-gray-700 font-medium mb-2"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="message"
+                  class="block text-gray-700 font-medium mb-2"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div
+          id="successModal"
+          class="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center hidden"
+        >
+          <div class="bg-white p-6 rounded-lg shadow-lg w-100">
+            <h2 class="text-lg font-semibold mb-4">Thank you!</h2>
+            <p class="mb-4">
+              Your message has been sent successfully. We'd surely get back to
+              you
+            </p>
+            <button
+              id="closeModal"
+              class="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-green-200">
+      <div class="mx-auto py-10 w-fit">
+        <div class="text-center">
+          <h3 class="text-green-600 text-3xl font-bold">sunnyside</h3>
+        </div>
+        <div class="my-10">
+          <ul class="flex justify-between gap-8 mx-4 lg:gap-16">
+            <li
+              class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
+            >
+              <a href="index.html">Home</a>
+            </li>
+            <li
+              class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
+            >
+              <a href="about.html">About</a>
+            </li>
+            <li
+              class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
+            >
+              <a href="products.html">Products</a>
+            </li>
+            <li
+              class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
+            >
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex justify-center">
+          <div class="flex justify-content gap-8 mx-auto">
+            <img
+              src="/build/images/mobile/icon-facebook.svg"
+              alt="facebook"
+            /><img
+              src="/build/images/mobile/icon-instagram.svg"
+              alt="instagram"
+            />
+            <img
+              src="/build/images/mobile/icon-twitter.svg"
+              alt="twitter"
+            /><img
+              src="/build/images/mobile/icon-pinterest.svg"
+              alt="pinterest"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
