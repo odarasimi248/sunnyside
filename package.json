@@ -61,7 +61,6 @@
     "picomatch": "^2.3.1",
     "pify": "^2.3.0",
     "pirates": "^4.0.6",
-    "postcss": "^8.4.41",
     "postcss-import": "^15.1.0",
     "postcss-js": "^4.0.1",
     "postcss-load-config": "^4.0.2",
@@ -95,7 +94,10 @@
     "yaml": "^2.5.0"
   },
   "devDependencies": {
-    "prettier-plugin-tailwindcss": "^0.6.6"
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.10"
   },
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
