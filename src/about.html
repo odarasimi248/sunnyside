@@ -1,206 +1,264 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./build/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sunnyside -- About</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="build/css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
-    rel="stylesheet" />
-  <title>Sunnyside -- About</title>
-</head>
-
-<body>
-  <div>
-    <header>
-      <div class="relative">
-        <div class="w-full">
-          <img src="buildimages/cocktails/cocktails.jpeg" class="w-full h-[40rem] object-cover"
-            alt="mocktail-hero" />
-        </div>
-
-        <div class="w-[90%] flex justify-between items-center absolute top-4 left-4 lg:left-12">
-          <div>
-            <h2 class="text-2xl font-bold text-white"><a href="about.html">about</a></h2>
+  <body>
+    <div>
+      <header>
+        <div class="relative">
+          <div class="w-full">
+            <img
+              src="./build/images/cocktails/cocktails.jpeg"
+              class="w-full h-[40rem] object-cover"
+              alt="mocktail-hero"
+            />
           </div>
 
-          <div class="hidden lg:block">
-            <ul class="flex justify-between items-center gap-8">
-              <li
-                class="text-white"
-              >
-                <a href="index.html" class=" pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all">Home</a>
-              </li>
-              <li
-                class="text-white"
-              >
-                <a href="about.html" class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all">About</a>
-              </li>
-              <li
-                class="text-white"
-              >
-                <a href="products.html" class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all">Products</a>
-              </li>
-              <li class="text-white">
-                <a class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+          <div
+            class="w-[90%] flex justify-between items-center absolute top-4 left-4 lg:left-12"
+          >
+            <div>
+              <h2 class="text-2xl font-bold text-white">
+                <a href="about.html">about</a>
+              </h2>
+            </div>
 
-          <div class="lg:hidden">
-            <div class="off-screen-menu">
-              <ul class="flex flex-col gap-4">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <div class="hidden lg:block">
+              <ul class="flex justify-between items-center gap-8">
+                <li class="text-white">
+                  <a
+                    href="index.html"
+                    class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all"
+                    >Home</a
+                  >
+                </li>
+                <li class="text-white">
+                  <a
+                    href="about.html"
+                    class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all"
+                    >About</a
+                  >
+                </li>
+                <li class="text-white">
+                  <a
+                    href="products.html"
+                    class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all"
+                    >Products</a
+                  >
+                </li>
+                <li class="text-white">
+                  <a
+                    class="pb-2 hover:border-b-2 hover:border-gray-300 hover:text-gray-200 transition-all"
+                    href="contact.html"
+                    >Contact</a
+                  >
+                </li>
               </ul>
             </div>
 
-            <nav>
-              <div class="ham-menu">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="lg:hidden">
+              <div class="off-screen-menu">
+                <ul class="flex flex-col gap-4">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
               </div>
-            </nav>
+
+              <nav>
+                <div class="ham-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </nav>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <main>
-      <section>
-        <div class="my-20 px-8 container mx-auto">
-          <div class="text-center">
-            <h1 class="text-3xl fraunces font-bold">**Welcome to Sunnyside!**</h1>
-            <p class="my-4 mx-auto">
-              At Sunnyside, we believe that every sip should bring joy and refreshment. Specializing in crafting
-              exceptional mocktails, cocktails, smoothies, and mojitos, we are dedicated to providing you with an
-              unforgettable drinking experience. Our team is passionate about using the finest ingredients to create
-              balanced, flavorful beverages that cater to every taste and occasion.
-              <br>
-              Whether you're celebrating a special moment with friends, enjoying a relaxing afternoon, or just in need
-              of
-              a nutritious boost, Sunnyside has the perfect drink for you. Our commitment to quality and innovation
-              ensures that each product not only meets but exceeds your expectations.
-              Join us at Sunnyside, where every drink is crafted with care and creativity, and let us brighten your day
-              with our delicious, handcrafted beverages. Cheers to great taste and good times!
+      <main>
+        <section>
+          <div class="my-20 px-8 container mx-auto">
+            <div class="text-center">
+              <h1 class="text-3xl fraunces font-bold">
+                **Welcome to Sunnyside!**
+              </h1>
+              <p class="my-4 mx-auto">
+                At Sunnyside, we believe that every sip should bring joy and
+                refreshment. Specializing in crafting exceptional mocktails,
+                cocktails, smoothies, and mojitos, we are dedicated to providing
+                you with an unforgettable drinking experience. Our team is
+                passionate about using the finest ingredients to create
+                balanced, flavorful beverages that cater to every taste and
+                occasion.
+                <br />
+                Whether you're celebrating a special moment with friends,
+                enjoying a relaxing afternoon, or just in need of a nutritious
+                boost, Sunnyside has the perfect drink for you. Our commitment
+                to quality and innovation ensures that each product not only
+                meets but exceeds your expectations. Join us at Sunnyside, where
+                every drink is crafted with care and creativity, and let us
+                brighten your day with our delicious, handcrafted beverages.
+                Cheers to great taste and good times!
+              </p>
+            </div>
+
+            <div class="flex flex-col lg:flex-row lg:gap-8">
+              <div>
+                <div>
+                  <h2 class="text-xl fraunces font-bold mt-12">
+                    Craftsmanship at Its Best
+                  </h2>
+                  <p class="my-4">
+                    Our expert mixologists and blenders are dedicated to
+                    perfecting each recipe, ensuring that every drink is a
+                    masterpiece. From the vibrant and zesty mojitos to the
+                    wholesome, nutrient-packed smoothies, our creations are
+                    designed to provide a refreshing escape from the ordinary.
+                    We take pride in experimenting with innovative flavor
+                    combinations and classic favorites to create beverages that
+                    stand out. By meticulously selecting high-quality
+                    ingredients and paying attention to every detail, we ensure
+                    that each drink is not just enjoyable, but a true work of
+                    art.
+                  </p>
+                </div>
+                <div>
+                  <h2 class="text-xl fraunces font-bold mt-12">
+                    Celebrating Every Occasion
+                  </h2>
+                  <p class="my-4">
+                    Whether you're hosting a lively gathering, enjoying a quiet
+                    evening, or simply in need of a pick-me-up, Sunnyside has
+                    something for everyone. Our mocktails offer a sophisticated,
+                    alcohol-free alternative for those who prefer a lighter
+                    touch, while our cocktails and mojitos cater to those
+                    seeking a classic, spirited experience. And for a healthful
+                    boost, our smoothies are the perfect choice, blending taste
+                    with nutrition. No matter the occasion or mood, our diverse
+                    range of beverages is designed to cater to your needs and
+                    elevate your experience.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <h2 class="text-xl fraunces font-bold mt-12">
+                    Our Commitment to Quality
+                  </h2>
+                  <p class="my-4">
+                    At Sunnyside, quality is at the heart of everything we do.
+                    We meticulously select our ingredients and craft each drink
+                    with precision and care. Our goal is to exceed your
+                    expectations with every sip, providing you with beverages
+                    that are as enjoyable as they are satisfying. We believe in
+                    transparency and integrity, ensuring that every product you
+                    receive is made with the highest standards of quality. Your
+                    satisfaction is our priority, and we are committed to
+                    delivering excellence in every glass.
+                  </p>
+                </div>
+
+                <div>
+                  <h2 class="text-xl fraunces font-bold mt-12">
+                    Join the Sunnyside Experience
+                  </h2>
+                  <p class="my-4">
+                    We invite you to explore our range of drinks and discover
+                    why Sunnyside is the go-to choice for exceptional beverages.
+                    Let us brighten your day and enhance your moments with our
+                    expertly crafted drinks. Dive into our vibrant selection and
+                    experience the perfect blend of flavor, quality, and
+                    creativity. At Sunnyside, every sip is a celebration of
+                    life’s pleasures, and we’re excited to share that joy with
+                    you. Cheers to discovering your new favorite drink with us!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p class="text-center mt-10">
+              At Sunnyside, we’re more than just a drink company—we’re your
+              destination for exceptional refreshment. Our passion lies in
+              crafting exquisite mocktails, cocktails, smoothies, and mojitos
+              that turn every moment into a celebration. With a commitment to
+              quality and creativity, we blend the finest ingredients to deliver
+              flavors that delight and invigorate. Each drink is crafted to
+              enhance your experience, whether you’re unwinding after a long day
+              or gathering with friends and family. Our mission is simple: to
+              bring a little extra sunshine into your life with every sip.
             </p>
           </div>
+        </section>
+      </main>
 
-
-          <div class="flex flex-col lg:flex-row lg:gap-8">
-            <div>
-              <div>
-                <h2 class="text-xl fraunces font-bold mt-12">Craftsmanship at Its Best</h2>
-                <p class="my-4">
-                  Our expert mixologists and blenders are dedicated to perfecting each recipe, ensuring that every drink
-                  is a masterpiece. From the vibrant and zesty mojitos to the wholesome, nutrient-packed smoothies, our
-                  creations are designed to provide a refreshing escape from the ordinary. We take pride in
-                  experimenting with innovative flavor combinations and classic favorites to create beverages that stand
-                  out. By meticulously selecting high-quality ingredients and paying attention to every detail, we
-                  ensure that each drink is not just enjoyable, but a true work of art.
-                </p>
-              </div>
-              <div>
-                <h2 class="text-xl fraunces font-bold mt-12">Celebrating Every Occasion</h2>
-                <p class="my-4">
-                  Whether you're hosting a lively gathering, enjoying a quiet evening, or simply in need of a
-                  pick-me-up, Sunnyside has something for everyone. Our mocktails offer a sophisticated, alcohol-free
-                  alternative for those who prefer a lighter touch, while our cocktails and mojitos cater to those
-                  seeking a classic, spirited experience. And for a healthful boost, our smoothies are the perfect
-                  choice, blending taste with nutrition. No matter the occasion or mood, our diverse range of beverages
-                  is designed to cater to your needs and elevate your experience.
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <h2 class="text-xl fraunces font-bold mt-12">Our Commitment to Quality</h2>
-                <p class="my-4">
-                  At Sunnyside, quality is at the heart of everything we do. We meticulously select our ingredients and
-                  craft each drink with precision and care. Our goal is to exceed your expectations with every sip,
-                  providing you with beverages that are as enjoyable as they are satisfying. We believe in transparency
-                  and integrity, ensuring that every product you receive is made with the highest standards of quality.
-                  Your satisfaction is our priority, and we are committed to delivering excellence in every glass.
-                </p>
-              </div>
-
-              <div>
-                <h2 class="text-xl fraunces font-bold mt-12">Join the Sunnyside Experience</h2>
-                <p class="my-4">
-                  We invite you to explore our range of drinks and discover why Sunnyside is the go-to choice for
-                  exceptional beverages. Let us brighten your day and enhance your moments with our expertly crafted
-                  drinks. Dive into our vibrant selection and experience the perfect blend of flavor, quality, and
-                  creativity. At Sunnyside, every sip is a celebration of life’s pleasures, and we’re excited to share
-                  that joy with you. Cheers to discovering your new favorite drink with us!
-                </p>
-              </div>
-            </div>
-
+      <footer class="bg-green-200">
+        <div class="mx-auto py-10 w-fit">
+          <div class="text-center">
+            <h3 class="text-green-600 text-3xl font-bold">sunnyside</h3>
           </div>
-          <p class="text-center mt-10">
-            At Sunnyside, we’re more than just a drink company—we’re your destination for exceptional refreshment. Our
-            passion lies in crafting exquisite mocktails, cocktails, smoothies, and mojitos that turn every moment into
-            a celebration. With a commitment to quality and creativity, we blend the finest ingredients to deliver
-            flavors that delight and invigorate. Each drink is crafted to enhance your experience, whether you’re
-            unwinding after a long day or gathering with friends and family. Our mission is simple: to bring a little
-            extra sunshine into your life with every sip.
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <footer class="bg-green-200">
-      <div class="mx-auto py-10 w-fit">
-        <div class="text-center">
-          <h3 class="text-green-600 text-3xl font-bold">sunnyside</h3>
-        </div>
-        <div class="my-10">
-          <ul class="flex justify-between gap-8 mx-4 lg:gap-16">
-            <li
-              class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
-            >
-              <a href="index.html">Home</a>
-            </li>
-            <li
-              class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
-            >
-              <a href="about.html">About</a>
-            </li>
-            <li
-              class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
-            >
-              <a href="products.html">Products</a>
-            </li>
-            <li
-              class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
-            >
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class="flex justify-center">
-          <div class="flex justify-content gap-8 mx-auto">
-            <img src=build/images/mobile/icon-facebook.svg" alt="facebook"><img
-              src=build/images/mobile/icon-instagram.svg" alt="instagram">
-            <img src=build/images/mobile/icon-twitter.svg" alt="twitter"><img
-              src=build/images/mobile/icon-pinterest.svg" alt="pinterest">
+          <div class="my-10">
+            <ul class="flex justify-between gap-8 mx-4 lg:gap-16">
+              <li
+                class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
+              >
+                <a href="index.html">Home</a>
+              </li>
+              <li
+                class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
+              >
+                <a href="about.html">About</a>
+              </li>
+              <li
+                class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
+              >
+                <a href="products.html">Products</a>
+              </li>
+              <li
+                class="cursor-pointer text-green-500 hover:text-green-900 transition-all"
+              >
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex justify-center">
+            <div class="flex justify-content gap-8 mx-auto">
+              <img
+                src="./build/images/mobile/icon-facebook.svg"
+                alt="facebook"
+              />
+              <img
+                src="./build/images/mobile/icon-instagram.svg"
+                alt="instagram"
+              />
+              <img src="./build/images/mobile/icon-twitter.svg" alt="twitter" />
+              <img
+                src="./build/images/mobile/icon-pinterest.svg"
+                alt="pinterest"
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
 
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
